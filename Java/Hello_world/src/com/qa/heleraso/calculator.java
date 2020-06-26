@@ -8,39 +8,15 @@ public class calculator {
 
 	public static void main(String[] args) {
 //		 TODO Auto-generated method stub
-		Boolean selectMethod = false;
-		System.out.println("Select A Valid Method: {1 calcuMath} {2 stringCheck} {3 loopNum} {4 helloWorld} {5 Exit}");
-		System.out.println("Or type Exit to end program");
+		//Hello_world()
+		//calcuMath()
+		//stringCheck()
+		loopNum();
+
+	}
+
 		
-		methodPicker(selectMethod);
-
-	}
-	public static void methodPicker(Boolean meth) {
-		int test = myObj.nextInt();
-		while (meth = false) {
-			switch (test) {
-			case 1:
-				calcuMath();
-				break;
-			case 2:
-				stringCheck();
-				break;
-			case 3:
-				loopNum();
-				break;
-			case 4:
-				System.out.println(Hello_world());
-				break;
-			case 5:
-				meth = true;
-				break;
-			default:
-				System.out.println("ERROR: No methods entered ");
-				break;
-			}
-
-		}
-	}
+	
 
 	public static String Hello_world() {
 		String Hewwo_world = "Hello World!";
